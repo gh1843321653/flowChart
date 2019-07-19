@@ -1,6 +1,6 @@
 # flow-chart
 
-> A Vue.js project
+> a flowchart by jsPlumb
 
 ## Build Setup
 
