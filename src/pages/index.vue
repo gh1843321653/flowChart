@@ -46,6 +46,7 @@
                         Container:"flowchart-demo"
                     }
                   var instance=jsPlumb.getInstance(options)
+                  
                   var window=document.querySelector(".window")
                   instance.draggable(window);
 
