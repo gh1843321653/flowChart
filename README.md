@@ -17,5 +17,8 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+#功能
+. 节点的添加，删除，拖拽
+. 节点text的编辑，hover展示审批人和状态
+. 连线的添加，删除
+. 连覆盖物的添加，删除，编辑
