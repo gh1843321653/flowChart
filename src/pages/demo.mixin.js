@@ -74,28 +74,28 @@ export default{
                     }
                 // the definition of source endpoints (the small blue ones)
                 this.sourceEndpoint = {
-                        endpoint: "Dot",
-                        paintStyle: {
-                            stroke: "#7AB02C",
-                            fill: "transparent",
-                            radius: 7,
-                            strokeWidth: 1
-                        },
-                        isSource: true,
-                        connector: [ "Flowchart", { stub: [40, 60], gap: 10, cornerRadius: 5, alwaysRespectStubs: true } ],
-                        connectorStyle: this.connectorPaintStyle,
-                        hoverPaintStyle: this.endpointHoverStyle,
-                        connectorHoverStyle: this.connectorHoverStyle,
-                        dragOptions: {},
-                        overlays: [
-                            [ "Label", {
-                                location: [0.5, 1.5],
-                                label: "Drag",
-                                cssClass: "endpointSourceLabel",
-                                visible:false
-                            } ]
-                        ]
-                    }
+                    endpoint: "Dot",
+                    paintStyle: {
+                        stroke: "#7AB02C",
+                        fill: "transparent",
+                        radius: 7,
+                        strokeWidth: 1
+                    },
+                    isSource: true,
+                    connector: [ "Flowchart", { stub: [40, 60], gap: 10, cornerRadius: 5, alwaysRespectStubs: true } ],
+                    connectorStyle: this.connectorPaintStyle,
+                    hoverPaintStyle: this.endpointHoverStyle,
+                    connectorHoverStyle: this.connectorHoverStyle,
+                    dragOptions: {},
+                    overlays: [
+                        [ "Label", {
+                            location: [0.5, 1.5],
+                            label: "Drag",
+                            cssClass: "endpointSourceLabel",
+                            visible:false
+                        } ]
+                    ]
+                }
                 this.targetEndpoint = {
                         endpoint: "Dot",
                         paintStyle: { fill: "#7AB02C", radius: 7 },
