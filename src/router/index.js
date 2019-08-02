@@ -9,6 +9,12 @@ export default new Router({
       path: '/',
       name: 'index',
       component: resolve => require(['../pages/index.vue'], resolve)
-    }
+    },
+    {
+      path: '/test',
+      name: 'test',
+      component: resolve => require(['../pages/test/index.vue'], resolve)
+    },
+
   ]
 })

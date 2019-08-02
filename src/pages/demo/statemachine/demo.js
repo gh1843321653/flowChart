@@ -17,7 +17,7 @@ jsPlumb.ready(function () {
         Container: "canvas"
     });
 
-    instance.registerConnectionType("basic", { anchor:"Continuous", connector:"StateMachine" });
+    instance.registerConnectionType("basic",{anchor:"Continuous", connector:"StateMachine" });
 
     window.jsp = instance;
 
